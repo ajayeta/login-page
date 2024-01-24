@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: steelblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #ffffff;
+    padding: 70px;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 10px;
+    align-self: center;
+}
+input{
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px;
+}
+input[type="checkbox"]{
+    width: 45px;
+}
+#checkme{
+    font-size: 18px;
+    font-weight: bold;
+}
+.login{
+    width: 222px;
+    background-color: steelblue;
+    border: 0;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+.loader{
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color:#ffffff ;
+    animation: an1 1s ease infinite;
+}
+@keyframes an1{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+#logout{
+    width: 222px;
+    background-color: steelblue;
+    border: 0;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    margin: auto;
+}
+#logout a{
+    text-decoration: none;
+}
+h1{
+    padding: 30px;
+}
+.error{
+    color: red;
+    margin: 0;
+    text-align: left;
+}
+input[type=checkbox]{
+    position: relative;
+    cursor: pointer;
+}
+input[type=checkbox]{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: 0px 28px 0 -55px;
+}
+
+
+
+
